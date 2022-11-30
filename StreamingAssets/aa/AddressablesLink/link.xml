@@ -6,6 +6,7 @@
     <type fullname="CharacterHumanBattle" preserve="all" />
     <type fullname="CharDameTaker" preserve="all" />
     <type fullname="DragonCtrl" preserve="all" />
+    <type fullname="EpicToonFX.ETFXLightFade" preserve="all" />
     <type fullname="GAP_ParticleSystemController.ParticleSystemController" preserve="all" />
     <type fullname="Moon.Core.Ability.AnimatorAbilityAction" preserve="all" />
     <type fullname="Moon.Core.Ability.BufAbility" preserve="all" />
@@ -25,11 +26,14 @@
     <type fullname="DragonVerse.CharacterStats" preserve="nothing" serialized="true" />
     <type fullname="Moon.Core.Ability.AbilityEffectConfigs" preserve="nothing" serialized="true" />
     <type fullname="Moon.Core.Ability.AbilityStatsBase" preserve="nothing" serialized="true" />
-    <type fullname="Moon.Core.Ability.BuffHpAttribute" preserve="nothing" serialized="true" />
     <type fullname="Moon.Core.Ability.EffectConfig" preserve="nothing" serialized="true" />
+    <type fullname="Moon.Core.Ability.BuffHpAttribute" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
